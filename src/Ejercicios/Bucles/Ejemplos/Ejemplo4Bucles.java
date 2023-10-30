@@ -1,4 +1,4 @@
-package Bucles.Ejemplos;
+package Ejercicios.Bucles.Ejemplos;
 
 public class Ejemplo4Bucles {
     // Es muy importante conocer el orden de ejecución de las instrucciones en un bucle for.

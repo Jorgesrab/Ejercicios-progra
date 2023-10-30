@@ -1,4 +1,4 @@
-package EjerciciosCondicionales._4Switch;
+package Ejercicios.EjerciciosCondicionales._4Switch;
 
 import java.util.Scanner;
 

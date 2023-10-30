@@ -1,4 +1,4 @@
-package PrimerosEjercicios.Extra;
+package Ejercicios.PrimerosEjercicios.Extra;
 
 import java.util.Scanner;
 

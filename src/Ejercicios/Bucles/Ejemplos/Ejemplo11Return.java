@@ -1,4 +1,4 @@
-package bucles.ejemplosTeoriaBucles;
+package Ejercicios.Bucles.Ejemplos;
 
 import java.util.Scanner;
 

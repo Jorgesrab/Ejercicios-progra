@@ -1,4 +1,4 @@
-package ejemplosTeoria;
+package Ejercicios.EjerciciosCondicionales.Ejmeplos;
 
 import java.util.Scanner;
 

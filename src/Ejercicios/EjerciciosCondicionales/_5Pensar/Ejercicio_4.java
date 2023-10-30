@@ -1,4 +1,4 @@
-package EjerciciosCondicionales._5Pensar;
+package Ejercicios.EjerciciosCondicionales._5Pensar;
 
 import java.util.Scanner;
 

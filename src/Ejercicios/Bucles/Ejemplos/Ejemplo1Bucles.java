@@ -1,4 +1,4 @@
-package Bucles.Ejemplos;
+package Ejercicios.Bucles.Ejemplos;
 
 /*
 Programa que imprima del 1 al 10

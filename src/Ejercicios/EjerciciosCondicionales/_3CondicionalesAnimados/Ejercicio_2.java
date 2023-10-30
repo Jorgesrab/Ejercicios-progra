@@ -1,4 +1,4 @@
-package EjerciciosCondicionales._3CondicionalesAnimados;
+package Ejercicios.EjerciciosCondicionales._3CondicionalesAnimados;
 
 import java.util.Scanner;
 

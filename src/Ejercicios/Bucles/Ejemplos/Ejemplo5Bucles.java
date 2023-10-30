@@ -1,4 +1,4 @@
-package bucles.ejemplosTeoriaBucles;
+package Ejercicios.Bucles.Ejemplos;
 
 /*
 Equivalencia entre bucle FOR y WHILE

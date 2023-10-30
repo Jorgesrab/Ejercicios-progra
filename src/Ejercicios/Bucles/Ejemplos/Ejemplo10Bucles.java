@@ -1,4 +1,4 @@
-package bucles.ejemplosTeoriaBucles;
+package Ejercicios.Bucles.Ejemplos;
 
 public class Ejemplo10Bucles {
     public static void main(String[] args) {

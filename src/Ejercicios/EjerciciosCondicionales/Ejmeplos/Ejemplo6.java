@@ -1,4 +1,4 @@
-package ejemplosTeoria;
+package Ejercicios.EjerciciosCondicionales.Ejmeplos;
 
 public class Ejemplo6 {
     public static void main(String[] args) {

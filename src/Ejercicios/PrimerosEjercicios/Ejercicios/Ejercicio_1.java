@@ -1,4 +1,4 @@
-package PrimerosEjercicios.Ejercicios;
+package Ejercicios.PrimerosEjercicios.Ejercicios;
 
 public class Ejercicio_1 {
 

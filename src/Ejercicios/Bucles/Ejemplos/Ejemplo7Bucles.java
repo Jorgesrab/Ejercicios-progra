@@ -1,4 +1,4 @@
-package Bucles.Ejemplos;
+package Ejercicios.Bucles.Ejemplos;
 
 /*
 BUCLES FOR ANIDADOS

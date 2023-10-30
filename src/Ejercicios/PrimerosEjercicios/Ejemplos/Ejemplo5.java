@@ -1,4 +1,4 @@
-package PrimerosEjercicios.Ejemplos;
+package Ejercicios.PrimerosEjercicios.Ejemplos;
 
 public class Ejemplo5 {
     public static void main(String[] args) {
