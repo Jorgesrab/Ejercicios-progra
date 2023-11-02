@@ -2,7 +2,7 @@ package Ejercicios.Bucles.ejercicios;
 
 import java.util.Scanner;
 
-public class Ejercicio_30 {
+public class Ejercicio_31 {
     public static void main(String[] args) {
         double num;
         int cantNumeros;
@@ -13,12 +13,11 @@ public class Ejercicio_30 {
         System.out.println("introduce el final del intervalo de numeros");
 
         cantNumeros = entrada.nextInt();
-        int auxCantNumeros=0;
 
 
 
 
-        for (int i = 2; auxCantNumeros <=cantNumeros-1 ; i++) {
+        for (int i = 2; i <=cantNumeros ; i++) {
 
             num =i;
             boolean primo = true;
@@ -42,12 +41,10 @@ public class Ejercicio_30 {
             } while ((temp != 0) && (aux > 1));
             if (primo == true) {
                 System.out.println("El numero "+ i +" es primo");
-                auxCantNumeros++;
 
 
             }
 
         }
-
     }
 }
