@@ -29,7 +29,7 @@ public class Ejercicio_34 {
 
 
             }
-            if (respuesta!=numero) System.out.println("\n sigue intentandolo");
+            if (respuesta!=numero) System.out.println("\nsigue intentandolo");
             respuesta = entrada.nextInt();
         }
 
