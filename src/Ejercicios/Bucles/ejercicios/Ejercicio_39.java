@@ -19,7 +19,7 @@ public class Ejercicio_39 {
             System.out.println("Introduce numeros positivos, podras introducir numeros hasta que pongas un numero menor o igual que 0");
             numero = entrada.nextInt();
 
-        }while (1 == numero);
+        }while (0< numero);
 
     }
 }
