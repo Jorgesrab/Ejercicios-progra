@@ -28,7 +28,14 @@ public class Ejercicoio_40 {
 
 
             }while(tempLongitud != 0);
-            System.out.println(longitud);
+
+
+            int tempSuma = temp;
+            for (int i = 0; i <= longitud; i++) {
+                sumaInterna = sumaInterna + tempSuma%10;
+                tempSuma = tempSuma/10;
+
+            }
 
 
 
@@ -38,12 +45,18 @@ public class Ejercicoio_40 {
                 numero = numero + temp;
                 if (temp != 0) {
                     sumaNumeros = sumaNumeros + " + ";
-                } else {
-                    sumaNumeros = sumaNumeros + " = " + numero;
-
                 }
+            }else {
+                System.out.println("El numero introduciodo no cumple las condiciones prueba con otro.\n");
             }
+            if (temp == 0){
+
+                sumaNumeros = sumaNumeros + " = " + numero;
+
+            }
+
             longitud = 0;
+            sumaInterna = 0;
 
         }while (0< temp);
         System.out.println(sumaNumeros);
