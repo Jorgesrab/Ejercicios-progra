@@ -2,7 +2,7 @@ package Ejercicios.Bucles.ejercicios;
 
 import java.util.Scanner;
 
-public class Ejercicoio_40 {
+public class Ejercicio_40 {
     public static void main(String[] args) {
         String sumaNumeros ="";
         int numero = 0;
