@@ -9,7 +9,7 @@ public class Ejercicio_13 {
         int[] array = new int[10];
 
         for (int i = 0; i < 5; i++) {
-            System.out.println("introduce un numero para la posicion " + i+" de manera ascendente");
+            System.out.println("introduce un numero para la posicion " + (i+1)+" de manera ascendente");
             array[i] = entrada.nextInt();
 
         }
@@ -18,20 +18,38 @@ public class Ejercicio_13 {
 
         int i = 5;
         boolean aux=false;
+        int posicion = 0;
 
-        do {
-            i-=1;
 
-            if ((numero>array[i]&&numero<array[i+1])||(numero>(array[i-1]))&&array[i]==0){
-                array[i+1]=array[i];
-                array[i+1]=numero;
-                aux=true;
-            }else {
-                array[i+1]=array[i];
+        for (int j = 0; j < array.length-1; j++) {
+            if (numero>array[i]){
+                posicion = i;
+
             }
 
 
-        }while (aux == false);
+        }
+
+        for (int j = array.length-2; j >=posicion ; j--) {
+            array[j+1]=array[j];
+        }
+
+       for (int j = 0; j < array.length; j++) {
+            if (j != array.length - 1) {
+                System.out.print(array[j] + ",");
+            } else {
+                System.out.println(array[j]);
+            }
+
+
+        }
+
+
+
+
+
+
+
 
         for (int j = 0; j < array.length; j++) {
             if (j != array.length - 1) {
