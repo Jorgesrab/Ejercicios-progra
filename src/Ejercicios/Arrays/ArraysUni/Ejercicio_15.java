@@ -1,4 +1,4 @@
-package Ejercicios.Arrays;
+package Ejercicios.Arrays.ArraysUni;
 
 import java.util.Random;
 
