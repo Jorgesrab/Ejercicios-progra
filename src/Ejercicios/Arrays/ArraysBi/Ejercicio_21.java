@@ -32,7 +32,7 @@ public class Ejercicio_21 {
         }
 
 
-        Metodos.SoutArrays(array);
+        Metodos.SoutArraysInt(array);
     }
 
 

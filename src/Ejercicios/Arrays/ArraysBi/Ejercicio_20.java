@@ -14,7 +14,7 @@ public class Ejercicio_20 {
             
         }
 
-        Metodos.SoutArrays(array);
+        Metodos.SoutArraysInt(array);
 
 
     }

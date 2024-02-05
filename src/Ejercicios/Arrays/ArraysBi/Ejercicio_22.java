@@ -61,8 +61,8 @@ public class Ejercicio_22 {
     private static double notaMaxima(double array[][], int i) {
 
         double notaMinima=array[i][0];
-        for (int j = 0; j > 5; j++) {
-            if (array[i][j]<notaMinima){
+        for (int j = 0; j < 5; j++) {
+            if (array[i][j]>notaMinima){
                 notaMinima=array[i][j];
             }
 
@@ -75,7 +75,7 @@ public class Ejercicio_22 {
     private static double notaMedia(double array[][], int i) {
 
         double notaMedia=0;
-        for (int j = 0; j > 5; j++) {
+        for (int j = 0; j < 5; j++) {
             notaMedia=notaMedia + array[i][j];
 
         }
