@@ -1,7 +1,5 @@
 package Ejercicios.Arrays.ArraysUni;
 
-import Ejercicios.Arrays.ArraysBi.Metodos;
-
 import java.util.Scanner;
 
 public class Ejercicio_19 {

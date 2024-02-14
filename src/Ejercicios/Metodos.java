@@ -1,11 +1,11 @@
-package Ejercicios.Arrays.ArraysBi;
+package Ejercicios;
 
 public class Metodos {
     public static void main(String[] args) {
 
     }
 
-    public static void SoutArraysInt(int array[][]) {
+    public static void SoutBiArraysInt(int array[][]) {
 
 
         for (int i = 0; i < array.length; i++) {
@@ -29,7 +29,7 @@ public class Metodos {
 
     }
 
-    public static void SoutArraysDouble(double array[][]) {
+    public static void SoutBiArraysDouble(double array[][]) {
 
 
         for (int i = 0; i < array.length; i++) {
@@ -52,4 +52,21 @@ public class Metodos {
 
 
     }
+
+    public static void SoutArrayInt(int array[]) {
+
+        for (int i = 0; i < array.length; i++) {
+            if (i != array.length - 1) {
+                System.out.print(array[i] + ",");
+            } else {
+                System.out.println(array[i]);
+            }
+
+
+        }
+
+
+
+    }
+
 }

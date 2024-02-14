@@ -1,5 +1,7 @@
 package Ejercicios.Arrays.ArraysBi;
 
+import Ejercicios.Metodos;
+
 import java.util.Scanner;
 
 public class Ejercicio_23 {
@@ -44,7 +46,7 @@ public class Ejercicio_23 {
 
 
 
-        Metodos.SoutArraysDouble(array);
+        Metodos.SoutBiArraysDouble(array);
 
         System.out.println("Sueldo medio hombre: "+sueldoH);
         System.out.println("Sueldo medio mujeres: "+sueldoM);

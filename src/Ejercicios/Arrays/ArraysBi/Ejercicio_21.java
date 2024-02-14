@@ -1,5 +1,7 @@
 package Ejercicios.Arrays.ArraysBi;
 
+import Ejercicios.Metodos;
+
 import java.util.Random;
 import java.util.Scanner;
 
@@ -32,7 +34,7 @@ public class Ejercicio_21 {
         }
 
 
-        Metodos.SoutArraysInt(array);
+        Metodos.SoutBiArraysInt(array);
     }
 
 

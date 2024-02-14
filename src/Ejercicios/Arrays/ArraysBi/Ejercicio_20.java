@@ -1,5 +1,7 @@
 package Ejercicios.Arrays.ArraysBi;
 
+import Ejercicios.Metodos;
+
 public class Ejercicio_20 {
     public static void main(String[] args) {
         int array[][]=new int[5][5];
@@ -14,7 +16,7 @@ public class Ejercicio_20 {
             
         }
 
-        Metodos.SoutArraysInt(array);
+        Metodos.SoutBiArraysInt(array);
 
 
     }
