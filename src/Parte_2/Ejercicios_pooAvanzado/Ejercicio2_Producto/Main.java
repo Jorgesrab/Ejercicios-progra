@@ -1,6 +1,5 @@
-package Parte_2.Entornos.Ejercicios_pooAvanzado.Ejercicio2_Producto;
+package Parte_2.Ejercicios_pooAvanzado.Ejercicio2_Producto;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Iterator;
 

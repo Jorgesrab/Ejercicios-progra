@@ -1,4 +1,4 @@
-package Parte_2.Entornos.Ejercicios_pooAvanzado.Ejercicio3_Astros;
+package Parte_2.Ejercicios_pooAvanzado.Ejercicio3_Astros;
 
 import java.util.ArrayList;
 
@@ -8,12 +8,13 @@ public class Planeta extends Astro{
     private boolean tieneSatelites;
     private ArrayList<Satelite> Satelites;
 
-    public Planeta(String nombre, double radio, double rotacion, double masa, double temperaturaMedia, double gravedad, double distanciaSol, double orbitaAlSol, boolean tieneSatelites, ArrayList<Satelite> satelites) {
+    public Planeta(String nombre, double radio, double rotacion, double masa, double temperaturaMedia, double gravedad, double distanciaSol, double orbitaAlSol) {
         super(nombre, radio, rotacion, masa, temperaturaMedia, gravedad);
         this.distanciaSol = distanciaSol;
         this.orbitaAlSol = orbitaAlSol;
-        this.tieneSatelites = tieneSatelites;
-        Satelites = satelites;
+        Satelites = new ArrayList<Satelite>();
+
+
     }
 
     public double getDistanciaSol() {
@@ -48,18 +49,14 @@ public class Planeta extends Astro{
         Satelites = satelites;
     }
 
-    @Override
-    public String toString() {
-        return "Planeta{" +
-                "distanciaSol=" + distanciaSol +
-                ", orbitaAlSol=" + orbitaAlSol +
-                ", tieneSatelites=" + tieneSatelites +
-                ", Satelites=" + Satelites +
-                "} " + super.toString();
-    }
 
     public void muestra(){
-        System.out.println(toString());
+        System.out.println(getNombre());
+
+    }
+
+    public void addSatelite (Satelite nombre){
+        Satelites.add(nombre);
 
     }
 }

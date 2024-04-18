@@ -1,4 +1,4 @@
-package Parte_2.Entornos.Ejercicios_pooAvanzado.Ejercicio2_Producto;
+package Parte_2.Ejercicios_pooAvanzado.Ejercicio2_Producto;
 
 public class Producto {
     String nombre;

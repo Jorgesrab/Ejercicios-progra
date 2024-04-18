@@ -1,4 +1,4 @@
-package Parte_2.Entornos.Ejercicios_pooAvanzado.Ejercicio3_Astros;
+package Parte_2.Ejercicios_pooAvanzado.Ejercicio3_Astros;
 
 public abstract class Astro {
     private String nombre;
@@ -67,18 +67,7 @@ public abstract class Astro {
         this.gravedad = gravedad;
     }
 
-    @Override
-    public String toString() {
-        return "Astro{" +
-                "nombre='" + nombre + '\'' +
-                ", radio=" + radio +
-                ", rotacion=" + rotacion +
-                ", masa=" + masa +
-                ", temperaturaMedia=" + temperaturaMedia +
-                ", gravedad=" + gravedad +
-                '}';
-    }
     public void muestra(){
-        System.out.println(this.toString());
+
     }
 }
