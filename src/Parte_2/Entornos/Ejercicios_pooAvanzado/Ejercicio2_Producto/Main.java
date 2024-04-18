@@ -26,6 +26,23 @@ public class Main {
         }
 
         Productos.remove(2);
+        Productos.remove(1);
+
+        Producto productoNuevo = new Producto("Patatas",20);
+        Productos.add(2,productoNuevo);
+        System.out.println("----------------------------------------");
+        for (Producto p:Productos) {
+            System.out.println(p.nombre);
+
+        }
+
+        Productos.clear();
+        System.out.println("----------------------------------------");
+        for (Producto p:Productos) {
+            System.out.println(p.nombre);
+
+        }
+
 
 
     }
