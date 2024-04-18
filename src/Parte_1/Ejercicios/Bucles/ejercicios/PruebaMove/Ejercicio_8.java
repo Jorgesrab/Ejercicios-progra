@@ -1,4 +1,4 @@
-package Parte_1.Ejercicios.Bucles.ejercicios;
+package Parte_1.Ejercicios.Bucles.ejercicios.PruebaMove;
 
 import java.util.Scanner;
 

@@ -15,13 +15,7 @@ public class Ejercicio_32 {
 
         Scanner entrada = new Scanner(System.in);
 
-        do {
-
-            System.out.println("Introduce una cantidad de euros que sea multiplo de 5");
-            dinero = entrada.nextInt();
-            if (dinero%5 != 0) System.out.println("La cantidad introducida no es multiplo de 5 vuelve a intentarlo");
-
-        }while (dinero%5 != 0);
+        dinero = getDinero(entrada);
 
         while (dinero>=500){
 
@@ -66,5 +60,17 @@ public class Ejercicio_32 {
 
         }
         System.out.println("\ntienes "+billete500+" billestes de 500"+"\ntienes "+billete200+" billestes de 200"+"\ntienes "+billete100+" billestes de 100"+"\ntienes "+billete50+" billestes de 50"+"\ntienes "+billete20+" billestes de 20"+"\ntienes "+billete10+" billestes de 10"+"\ntienes "+billete5+" billestes de 5");
+    }
+
+    private static int getDinero(Scanner entrada) {
+        int dinero;
+        do {
+
+            System.out.println("Introduce una cantidad de euros que sea multiplo de 5");
+            dinero = entrada.nextInt();
+            if (dinero%5 != 0) System.out.println("La cantidad introducida no es multiplo de 5 vuelve a intentarlo");
+
+        }while (dinero%5 != 0);
+        return dinero;
     }
 }

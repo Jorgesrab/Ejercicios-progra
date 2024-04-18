@@ -61,7 +61,7 @@ public class Consumo {
         return tiempo;
     }
 
-    /*
+    /*<
      * Consumo medio del vehículo (en litros cada 100 kilómetros).
      */
     public double consumoMedio() {

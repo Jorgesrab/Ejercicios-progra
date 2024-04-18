@@ -88,6 +88,6 @@ public class Practica_1Tema_4 {
         int limite = scanner.nextInt();
         System.out.println("Números mayores que " + limite + ": " + contarMayoresQue(numeros, limite));
 
-        scanner.close();
+
     }
 }
