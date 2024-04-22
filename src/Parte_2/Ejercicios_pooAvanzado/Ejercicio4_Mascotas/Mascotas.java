@@ -9,6 +9,13 @@ public abstract class Mascotas {
     public Mascotas() {
     }
 
+    public Mascotas(String nombre, int edad, String estado, String fechaNacimiento) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.estado = estado;
+        this.fechaNacimiento = fechaNacimiento;
+    }
+
     public String getNombre() {
         return nombre;
     }
@@ -46,7 +53,14 @@ public abstract class Mascotas {
     public abstract void morir();
     public abstract void  habla();
 
-
-
+    @Override
+    public String toString() {
+        return "Mascotas{" +
+                "nombre='" + nombre + '\'' +
+                ", edad=" + edad +
+                ", estado='" + estado + '\'' +
+                ", fechaNacimiento='" + fechaNacimiento + '\'' +
+                '}';
+    }
 }
 
