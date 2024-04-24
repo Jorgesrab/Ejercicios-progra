@@ -38,7 +38,17 @@ public class Empleado {
         return this.toString();
     }
 
-    public String calculoSueldoNeto(){
+    public double calculoSueldoNeto(){
+        double sueldoAnual = this.sueldoBrutoM*12;
+
+        if (sueldoAnual<12000){
+            return this.sueldoBrutoM * 0.80;
+        } else if (sueldoAnual >= 12000 && sueldoAnual <= 25000) {
+            return this.sueldoBrutoM * 0.70;
+        }else {
+            return this.sueldoBrutoM * 0.60;
+        }
 
     }
+
 }
