@@ -42,6 +42,21 @@ public class Empresa {
         this.direccion = direccion;
     }
 
+    @Override
+    public String toString() {
+        return "Empresa{" +
+                "nombre='" + nombre + '\'' +
+                ", cif='" + cif + '\'' +
+                ", telefono=" + telefono +
+                ", direccion='" + direccion + '\'' +
+                ", empleados=" + empleados +
+                '}';
+    }
+
+    public String mostrar(){
+        return toString();
+    }
+
     public void añadirEmpleados(Empleado empleado){
         if (empleados==null) empleados = new ArrayList<>();
         empleados.add(empleado);
@@ -59,8 +74,25 @@ public class Empresa {
 
     public void mostrarEmpleadosSueldo(){
         for (Empleado empleado:empleados) {
-            System.out.println();
-            empleado.mostrar();
+            System.out.println("DNI: "+empleado.getDni());
+            System.out.println("Sueldo bruto: "+empleado.getSueldoBrutoM());
+            System.out.println("Sueldo neto: "+ empleado.calculoSueldoNeto());
+        }
+    }
+
+    public void brutoTotal(){
+        double brutoTotal=0;
+        for (Empleado empleado:empleados) {
+            brutoTotal+=empleado.sueldoBrutoM;
+
+        }
+    }
+
+    public void netoTotal(){
+        double netoTotal=0;
+        for (Empleado empleado:empleados) {
+            netoTotal+=empleado.calculoSueldoNeto();
+
         }
     }
 

@@ -8,6 +8,46 @@ public class Empleado {
     int telefono;
     String direccion;
 
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getDni() {
+        return dni;
+    }
+
+    public double getSueldoBrutoM() {
+        return sueldoBrutoM;
+    }
+
+    public void setSueldoBrutoM(double sueldoBrutoM) {
+        this.sueldoBrutoM = sueldoBrutoM;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    public int getTelefono() {
+        return telefono;
+    }
+
+    public void setTelefono(int telefono) {
+        this.telefono = telefono;
+    }
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+    }
+
     public Empleado(String nombre, String dni) {
         this.nombre = nombre;
         this.dni = dni;
