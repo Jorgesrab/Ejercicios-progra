@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Scanner;
 
-public class Inventario {
+public class Inventario{
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
 
